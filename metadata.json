@@ -1,0 +1,5 @@
+{
+  "name": "AIR Mira",
+  "description": "AI Recruiter Web Application with dual-stream generation (Chat + Dynamic UI).",
+  "requestFramePermissions": []
+}
