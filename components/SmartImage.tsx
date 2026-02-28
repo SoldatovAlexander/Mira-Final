@@ -4,35 +4,35 @@ import { ImageOff, Loader2 } from 'lucide-react';
 // Карта ассетов, соответствующая файлам из Google Drive.
 // Позволяет использовать имена файлов, как если бы они были локальными.
 export const ASSET_MAP: Record<string, string> = {
-  // Основные - Рыжеволосая девушка в синей рубашке (обновлено)
-  'avatar_mira.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/avatar_mira.png',
-  'mira_avatar.png': 'https://images.unsplash.com/photo-1554244933-d877fea46fce?auto=format&fit=crop&w=800&q=80',
+  // Основные - Рыжеволосая девушка в синей рубашке
+  'avatar_mira.png': 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
+  'mira_avatar.png': 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
   
   // Интерфейсы и списки
-  'resume_database.png': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
-  'candidate_card.png': 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80',
-  'candidates_list.png': 'https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=800&q=80',
-  'vacancies_list.png': 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80',
+  'resume_database.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/resume_database.png',
+  'candidate_card.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/candidate_card.png',
+  'candidates_list.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/candidates_list.png',
+  'vacancies_list.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/vacancies_list.png',
   
   // Статистика и графики
-  'job_statistics.png': 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
-  'hiring_funnel_stats.jpg': 'https://images.unsplash.com/photo-1543286386-713df548e9cc?auto=format&fit=crop&w=800&q=80',
-  'economic_efficiency.jpeg': 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80',
-  'interview_scores_chart.jpg': 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
-  'resume_scores_chart.jpg': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+  'job_statistics.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/job_statistics.png',
+  'hiring_funnel_stats.jpg': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/hiring_funnel_stats.jpg',
+  'economic_efficiency.jpeg': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/economic_efficiency.jpeg',
+  'interview_scores_chart.jpg': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/interview_scores_chart.jpg',
+  'resume_scores_chart.jpg': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/resume_scores_chart.jpg',
   
   // Анализ
-  'skills_analysis.png': 'https://images.unsplash.com/photo-1507537297725-24a1c434c67b?auto=format&fit=crop&w=800&q=80',
-  'skills_analysis_full.png': 'https://images.unsplash.com/photo-1507537297725-24a1c434c67b?auto=format&fit=crop&w=800&q=80',
-  'emotion_analysis.png': 'https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=800&q=80',
+  'skills_analysis.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/skills_analysis.png',
+  'skills_analysis_full.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/skills_analysis_full.png',
+  'emotion_analysis.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/emotion_analysis.png',
   
   // Процессы
-  'start_interview.png': 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80',
-  'choosing_time.png': 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80',
+  'start_interview.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/start_interview.png',
+  'choosing_time.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/choosing_time.png',
   
   // Формы
-  'briefing_form.png': 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
-  'briefing_checklist.png': 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=800&q=80',
+  'briefing_form.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/briefing_form.png',
+  'briefing_checklist.png': 'https://storage.yandexcloud.net/aiueducation/Vibe-coding/MIRA/briefing_checklist.png',
 };
 
 interface SmartImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
